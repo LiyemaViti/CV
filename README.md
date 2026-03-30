@@ -5,7 +5,7 @@
 
 078 116 3610 ·  [liyemaviti33@gmail.com](mailto:liyemaviti33@gmail.com)
 
-> **[View live CV →](https://LiyemaViti.github.io/cv)**
+> **[View live CV →](https:github.com/LiyemaViti/CV)**
 
 ---
 
