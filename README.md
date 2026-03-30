@@ -1,11 +1,11 @@
 # Liyema Viti
 
 **ICT Applications Development Student** · Cape Town, South Africa  
-🟢 **Available Immediately** · Open to Internships & Graduate Opportunities
+**Available Immediately** · Open to Internships & Graduate Opportunities
 
-📞 078 116 3610 · 📧 [liyemaviti33@gmail.com](mailto:liyemaviti33@gmail.com)
+078 116 3610 ·  [liyemaviti33@gmail.com](mailto:liyemaviti33@gmail.com)
 
-> 🌐 **[View live CV →](https://liyemaviti.github.io/cv)**
+> **[View live CV →](https://LiyemaViti.github.io/cv)**
 
 ---
 
@@ -37,7 +37,6 @@ A hard working and motivated individual, flexible and willing to learn new thing
 `2022 — Present` · Final Year
 
 - Studying towards a Diploma in ICT with a focus on Applications Development
-- Relevant areas: software development, web technologies, databases, and systems analysis
 
 ---
 
@@ -52,7 +51,7 @@ A hard working and motivated individual, flexible and willing to learn new thing
 ### Cleaner
 **Cape Herb & Spice — Westlake, Cape Town**  
 `December 2024 — March 2025`  
-📞 021 701 5140
+021 701 5140
 
 - Maintained a clean and safe working environment in a fast-paced production setting
 - Demonstrated punctuality, reliability, and the ability to work as part of a team
@@ -67,8 +66,8 @@ A hard working and motivated individual, flexible and willing to learn new thing
 | Computer Literate | Time Management |
 | HTML & CSS | Attention to Detail |
 | UI/UX Design (Figma) | Ability to Multitask & Prioritise |
-| JavaScript | Works Well Alone & in a Team |
-| Applications Development | Flexible & Eager to Learn |
+|                      | Flexible & Eager to Learn |
+
 
 ---
 
@@ -88,4 +87,4 @@ A hard working and motivated individual, flexible and willing to learn new thing
 
 ---
 
-*Last updated: 2026 · Open to Cape Town-based or remote internships*
+
