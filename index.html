@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Liyema Viti — CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inconsolata:wght@300;400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink:    #16161a;
+      --muted:  #717179;
+      --rule:   #e2e2e8;
+      --accent: #2563eb;
+      --bg:     #f4f4f7;
+      --paper:  #ffffff;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      line-height: 1.75;
+      padding: 3rem 1.5rem 6rem;
+    }
+
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--paper);
+      padding: 3.8rem 4.2rem;
+      box-shadow: 0 4px 48px rgba(0,0,0,.08);
+    }
+
+    /* HEADER */
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: start;
+      gap: 1rem;
+      padding-bottom: 1.8rem;
+      border-bottom: 2px solid var(--ink);
+      margin-bottom: 2.4rem;
+      animation: fadeUp .55s ease both;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 5vw, 2.9rem);
+      font-weight: 600;
+      letter-spacing: -.02em;
+      line-height: 1.05;
+    }
+
+    .role-tag {
+      font-family: 'Inconsolata', monospace;
+      font-size: .78rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-top: .5rem;
+    }
+
+    .badge {
+      background: var(--accent);
+      color: #fff;
+      font-family: 'Inconsolata', monospace;
+      font-size: .68rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      padding: .3rem .75rem;
+      border-radius: 2px;
+      white-space: nowrap;
+      display: inline-block;
+    }
+
+    .contact {
+      margin-top: 1rem;
+      font-size: .8rem;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: .25rem 1.2rem;
+    }
+    .contact a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+      transition: color .2s, border-color .2s;
+    }
+    .contact a:hover { color: var(--accent); border-color: var(--accent); }
+
+    /* SECTIONS */
+    section {
+      margin-bottom: 2.4rem;
+      animation: fadeUp .55s ease both;
+    }
+    section:nth-child(2)  { animation-delay: .06s; }
+    section:nth-child(3)  { animation-delay: .12s; }
+    section:nth-child(4)  { animation-delay: .18s; }
+    section:nth-child(5)  { animation-delay: .24s; }
+    section:nth-child(6)  { animation-delay: .30s; }
+    section:nth-child(7)  { animation-delay: .36s; }
+    section:nth-child(8)  { animation-delay: .42s; }
+
+    .label {
+      font-family: 'Inconsolata', monospace;
+      font-size: .68rem;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1.1rem;
+    }
+
+    .summary p { font-size: .94rem; max-width: 58ch; }
+
+    /* Entry rows */
+    .entry {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0 1rem;
+      padding: 1rem 0;
+      border-top: 1px solid var(--rule);
+    }
+    .entry:last-child { border-bottom: 1px solid var(--rule); }
+
+    .entry-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1.25;
+    }
+    .entry-sub { font-size: .8rem; color: var(--muted); margin-top: .1rem; }
+    .entry-period {
+      font-family: 'Inconsolata', monospace;
+      font-size: .7rem;
+      color: var(--muted);
+      white-space: nowrap;
+      text-align: right;
+      padding-top: .15rem;
+    }
+    .entry-body {
+      grid-column: 1 / -1;
+      font-size: .85rem;
+      margin-top: .5rem;
+      line-height: 1.65;
+    }
+    .entry-body ul { list-style: none; padding: 0; }
+    .entry-body ul li { padding-left: 1.1rem; position: relative; margin-bottom: .25rem; }
+    .entry-body ul li::before {
+      content: "▸";
+      color: var(--accent);
+      position: absolute;
+      left: 0;
+      font-size: .75rem;
+      top: .15rem;
+    }
+
+    /* Personal details table */
+    .details-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .5rem 2rem;
+      font-size: .85rem;
+    }
+    .details-row { display: flex; gap: .5rem; border-top: 1px solid var(--rule); padding-top: .5rem; }
+    .details-key { font-family: 'Inconsolata', monospace; font-size: .72rem; color: var(--muted); min-width: 120px; text-transform: uppercase; letter-spacing: .06em; padding-top: .1rem; }
+
+    /* Skills grid */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+      gap: .6rem;
+    }
+    .skill-block {
+      border-top: 2px solid var(--rule);
+      padding-top: .6rem;
+    }
+    .skill-block.hi { border-top-color: var(--accent); }
+    .skill-name {
+      font-family: 'Inconsolata', monospace;
+      font-size: .68rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: .3rem;
+    }
+    .skill-block p { font-size: .82rem; color: var(--muted); line-height: 1.55; }
+
+    /* Refs */
+    .refs { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    .ref-card {
+      border: 1px solid var(--rule);
+      border-top: 2px solid var(--accent);
+      padding: .7rem 1rem;
+      font-size: .82rem;
+      min-width: 200px;
+    }
+    .ref-name { font-weight: 700; margin-bottom: .15rem; }
+    .ref-phone { font-family: 'Inconsolata', monospace; color: var(--muted); font-size: .8rem; }
+
+    /* Languages */
+    .lang-row { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .lang-pill {
+      font-size: .82rem;
+      border: 1px solid var(--rule);
+      padding: .3rem .9rem;
+      border-radius: 2px;
+      color: var(--ink);
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      .page { padding: 2rem 1.5rem; }
+      header { grid-template-columns: 1fr; }
+      .entry { grid-template-columns: 1fr; }
+      .entry-period { text-align: left; }
+      .details-grid { grid-template-columns: 1fr; }
+    }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .page { box-shadow: none; padding: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+<main class="page">
+
+  <!-- HEADER -->
+  <header>
+    <div>
+      <h1>Liyema Viti</h1>
+      <p class="role-tag">ICT Applications Development · CPUT Final Year</p>
+      <div class="contact">
+        <span>Plumstead, Cape Town, 7800</span>
+        <a href="tel:0781163610">078 116 3610</a>
+        <a href="mailto:liyemaviti33@gmail.com">liyemaviti33@gmail.com</a>
+      </div>
+    </div>
+    <div>
+      <span class="badge">Available Immediately</span>
+    </div>
+  </header>
+
+  <!-- OBJECTIVE -->
+  <section class="summary">
+    <p class="label">Objective</p>
+    <p>
+      A hard working and motivated individual, flexible and willing to learn new things.
+      Passionate about technology and eager to apply my studies in ICT Applications Development
+      in a real-world environment. I am available immediately and actively seeking an internship
+      or entry-level opportunity where I can contribute and grow.
+    </p>
+  </section>
+
+  <!-- PERSONAL DETAILS -->
+  <section>
+    <p class="label">Personal Details</p>
+    <div class="details-grid">
+      <div class="details-row">
+        <span class="details-key">Date of Birth</span>
+        <span>05 September 2002</span>
+      </div>
+      <div class="details-row">
+        <span class="details-key">Nationality</span>
+        <span>South African</span>
+      </div>
+      <div class="details-row">
+        <span class="details-key">Gender</span>
+        <span>Male</span>
+      </div>
+      <div class="details-row">
+        <span class="details-key">Marital Status</span>
+        <span>Single</span>
+      </div>
+      <div class="details-row">
+        <span class="details-key">Driver's License</span>
+        <span>Code C1 with PrDP (G, P)</span>
+      </div>
+      <div class="details-row">
+        <span class="details-key">Health</span>
+        <span>Excellent</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section>
+    <p class="label">Education</p>
+
+    <div class="entry">
+      <div>
+        <div class="entry-title">Diploma in ICT — Applications Development</div>
+        <div class="entry-sub">Cape Peninsula University of Technology (CPUT) · Cape Town</div>
+      </div>
+      <div class="entry-period">2022 — Present</div>
+      <div class="entry-body">
+        <ul>
+          <li>Final year student — available for Work-Integrated Learning (WIL) placement.</li>
+          <li>Studying software development, web technologies, databases, and systems analysis.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div>
+        <div class="entry-title">National Senior Certificate — Grade 12</div>
+        <div class="entry-sub">Xolani Senior Secondary School</div>
+      </div>
+      <div class="entry-period">2019</div>
+    </div>
+  </section>
+
+  <!-- WORK EXPERIENCE -->
+  <section>
+    <p class="label">Work Experience</p>
+
+    <div class="entry">
+      <div>
+        <div class="entry-title">Cleaner</div>
+        <div class="entry-sub">Cape Herb &amp; Spice — Westlake, Cape Town &nbsp;·&nbsp; 021 701 5140</div>
+      </div>
+      <div class="entry-period">Dec 2024 — Mar 2025</div>
+      <div class="entry-body">
+        <ul>
+          <li>Maintained a clean and safe working environment in a fast-paced production facility.</li>
+          <li>Demonstrated consistent punctuality, reliability, and accountability.</li>
+          <li>Worked effectively both independently and as part of a team under operational pressure.</li>
+          <li>Applied strong time management and attention to detail in daily tasks.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <p class="label">Skills &amp; Abilities</p>
+    <div class="skills-grid">
+      <div class="skill-block hi">
+        <div class="skill-name">Technical</div>
+        <p>Computer Literate, HTML &amp; CSS, JavaScript, UI/UX Design, Applications Development</p>
+      </div>
+      <div class="skill-block hi">
+        <div class="skill-name">Professional</div>
+        <p>Time Management, Attention to Detail, Multitasking &amp; Prioritisation, Works Alone &amp; in a Team</p>
+      </div>
+      <div class="skill-block">
+        <div class="skill-name">Other</div>
+        <p>Code C1 Driver's License with PrDP (G &amp; P), Flexible, Eager to Learn</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LANGUAGES -->
+  <section>
+    <p class="label">Languages</p>
+    <div class="lang-row">
+      <span class="lang-pill">🇿🇦 IsiXhosa — Home Language</span>
+      <span class="lang-pill">🇬🇧 English — Fluent</span>
+    </div>
+  </section>
+
+  <!-- REFERENCES -->
+  <section>
+    <p class="label">References</p>
+    <div class="refs">
+      <div class="ref-card">
+        <div class="ref-name">Ms N.Y. Viti</div>
+        <div class="ref-phone">083 514 6263</div>
+      </div>
+      <div class="ref-card">
+        <div class="ref-name">Ms B. Raqase</div>
+        <div class="ref-phone">067 040 2553</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+</body>
+</html>
