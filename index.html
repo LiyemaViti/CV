@@ -1,131 +1,131 @@
-<!DOCTYPE html>
-<html lang="en"> 
-<head> 
-  <meta charset="UTF-8" /> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
-  <title>Liyema Viti — CV</title> 
-  <link rel="preconnect" href="https://fonts.googleapis.com"> 
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inconsolata:wght@300;400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; } 
+<!DOCTYPE html> 
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+  <title>Liyema Viti — CV</title>  
+  <link rel="preconnect" href="https://fonts.googleapis.com">  
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inconsolata:wght@300;400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"> 
+  <style> 
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }  
+ 
+    :root { 
+      --ink:    #16161a; 
+      --muted:  #717179; 
+      --rule:   #e2e2e8; 
+      --accent: #2563eb; 
+      --bg:     #f4f4f7; 
+      --paper:  #ffffff; 
+    } 
+  
+    body { 
+      background: var(--bg); 
+      color: var(--ink); 
+      font-family: 'Lato', sans-serif; 
+      font-weight: 300; 
+      line-height: 1.75; 
+      padding: 3rem 1.5rem 6rem; 
+    } 
+ 
+    .page { 
+      max-width: 760px; 
+      margin: 0 auto;  
+      background: var(--paper); 
+      padding: 3.8rem 4.2rem; 
+      box-shadow: 0 4px 48px rgba(0,0,0,.08); 
+    } 
+ 
+    /* HEADER */ 
+    header { 
+      display: grid; 
+      grid-template-columns: 1fr auto; 
+      align-items: start; 
+      gap: 1rem; 
+      padding-bottom: 1.8rem; 
+      border-bottom: 2px solid var(--ink); 
+      margin-bottom: 2.4rem;  
+      animation: fadeUp .55s ease both; 
+    } 
 
-    :root {
-      --ink:    #16161a;
-      --muted:  #717179;
-      --rule:   #e2e2e8;
-      --accent: #2563eb;
-      --bg:     #f4f4f7;
-      --paper:  #ffffff;
-    }
+    header h1 { 
+      font-family: 'Playfair Display', serif; 
+      font-size: clamp(2rem, 5vw, 2.9rem); 
+      font-weight: 600; 
+      letter-spacing: -.02em; 
+      line-height: 1.05; 
+    } 
 
-    body {
-      background: var(--bg);
-      color: var(--ink);
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      line-height: 1.75;
-      padding: 3rem 1.5rem 6rem;
-    }
+    .role-tag { 
+      font-family: 'Inconsolata', monospace;  
+      font-size: .78rem; 
+      letter-spacing: .1em; 
+      text-transform: uppercase; 
+      color: var(--accent); 
+      margin-top: .5rem; 
+    }  
 
-    .page {
-      max-width: 760px;
-      margin: 0 auto;
-      background: var(--paper);
-      padding: 3.8rem 4.2rem;
-      box-shadow: 0 4px 48px rgba(0,0,0,.08);
-    }
+    .badge { 
+      background: var(--accent); 
+      color: #fff; 
+      font-family: 'Inconsolata', monospace; 
+      font-size: .68rem; 
+      letter-spacing: .08em; 
+      text-transform: uppercase; 
+      padding: .3rem .75rem; 
+      border-radius: 2px; 
+      white-space: nowrap;  
+      display: inline-block; 
+    } 
+ 
+    .contact { 
+      margin-top: 1rem; 
+      font-size: .8rem; 
+      color: var(--muted); 
+      display: flex; 
+      flex-wrap: wrap;   
+      gap: .25rem 1.2rem; 
+    } 
+    .contact a { 
+      color: var(--muted); 
+      text-decoration: none; 
+      border-bottom: 1px solid var(--rule);   
+      transition: color .2s, border-color .2s; 
+    } 
+    .contact a:hover { color: var(--accent); border-color: var(--accent); } 
 
-    /* HEADER */
-    header {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      align-items: start;
-      gap: 1rem;
-      padding-bottom: 1.8rem;
-      border-bottom: 2px solid var(--ink);
-      margin-bottom: 2.4rem;
-      animation: fadeUp .55s ease both;
-    }
+    /* SECTIONS */ 
+    section { 
+      margin-bottom: 2.4rem; 
+      animation: fadeUp .55s ease both; 
+    } 
+    section:nth-child(2)  { animation-delay: .06s; } 
+    section:nth-child(3)  { animation-delay: .12s; } 
+    section:nth-child(4)  { animation-delay: .18s; } 
+    section:nth-child(5)  { animation-delay: .24s; } 
+    section:nth-child(6)  { animation-delay: .30s; } 
+    section:nth-child(7)  { animation-delay: .36s; }  
+    section:nth-child(8)  { animation-delay: .42s; } 
+  
+    .label { 
+      font-family: 'Inconsolata', monospace; 
+      font-size: .68rem;    
+      letter-spacing: .18em; 
+      text-transform: uppercase; 
+      color: var(--muted);  
+      margin-bottom: 1.1rem; 
+    } 
 
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(2rem, 5vw, 2.9rem);
-      font-weight: 600;
-      letter-spacing: -.02em;
-      line-height: 1.05;
-    }
-
-    .role-tag {
-      font-family: 'Inconsolata', monospace;
-      font-size: .78rem;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin-top: .5rem;
-    }
-
-    .badge {
-      background: var(--accent);
-      color: #fff;
-      font-family: 'Inconsolata', monospace;
-      font-size: .68rem;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-      padding: .3rem .75rem;
-      border-radius: 2px;
-      white-space: nowrap;
-      display: inline-block;
-    }
-
-    .contact {
-      margin-top: 1rem;
-      font-size: .8rem;
-      color: var(--muted);
-      display: flex;
-      flex-wrap: wrap;
-      gap: .25rem 1.2rem;
-    }
-    .contact a {
-      color: var(--muted);
-      text-decoration: none;
-      border-bottom: 1px solid var(--rule);
-      transition: color .2s, border-color .2s;
-    }
-    .contact a:hover { color: var(--accent); border-color: var(--accent); }
-
-    /* SECTIONS */
-    section {
-      margin-bottom: 2.4rem;
-      animation: fadeUp .55s ease both;
-    }
-    section:nth-child(2)  { animation-delay: .06s; }
-    section:nth-child(3)  { animation-delay: .12s; }
-    section:nth-child(4)  { animation-delay: .18s; }
-    section:nth-child(5)  { animation-delay: .24s; }
-    section:nth-child(6)  { animation-delay: .30s; }
-    section:nth-child(7)  { animation-delay: .36s; }
-    section:nth-child(8)  { animation-delay: .42s; }
-
-    .label {
-      font-family: 'Inconsolata', monospace;
-      font-size: .68rem;
-      letter-spacing: .18em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 1.1rem;
-    }
-
-    .summary p { font-size: .94rem; max-width: 58ch; }
-
-    /* Entry rows */
-    .entry {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 0 1rem;
-      padding: 1rem 0;
-      border-top: 1px solid var(--rule);
-    }
-    .entry:last-child { border-bottom: 1px solid var(--rule); }
+    .summary p { font-size: .94rem; max-width: 58ch; } 
+ 
+    /* Entry rows */ 
+    .entry { 
+      display: grid; 
+      grid-template-columns: 1fr auto; 
+      gap: 0 1rem; 
+      padding: 1rem 0; 
+      border-top: 1px solid var(--rule); 
+    } 
+    .entry:last-child { border-bottom: 1px solid var(--rule); } 
 
     .entry-title {
       font-family: 'Playfair Display', serif;
