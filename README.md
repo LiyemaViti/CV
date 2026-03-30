@@ -45,17 +45,6 @@ A hard working and motivated individual, flexible and willing to learn new thing
 `Obtained: 2019` 
  
 --- 
- 
-## Projects 
-
-### [CPUT Mobile App UX — View Prototype on Figma]([https://www.figma.com/design/BKibima4CwWjXefOVfZ6bC/CPUT-MOBILE-APP?node-id=0-1&p=f&t=LbEr4CSO95RA8jIu-0](https://www.figma.com/design/BKibima4CwWjXefOVfZ6bC/CPUT-MOBILE-APP?node-id=0-1&p=f&t=LbEr4CSO95RA8jIu-0))
-`2024` · Academic Project 
-
-- Designed a UX/UI prototype aimed at simplifying CPUT student life through a mobile app integrating campus navigation, class registration, and student support.
-- Applied Design Thinking methodology, Gestalt principles, and UX best practices.  
-- Delivered a fully interactive prototype viewable on Figma.  
- 
---- 
 
 ## Work Experience  
 
