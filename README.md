@@ -98,4 +98,7 @@ A hard working and motivated individual, flexible and willing to learn new thing
 
 ---
 
+## Mock Interview
+<video src="./LiyemaViti-mock-interview.mp4" controls width="600"></video
+
 
