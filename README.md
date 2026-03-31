@@ -94,7 +94,7 @@ A hard working and motivated individual, flexible and willing to learn new thing
 | Name | Contact | 
 |---|---| 
 | Ms N.Y. Viti | 083 514 6263 | 
-| Ms B. Raqase | 067 040 2553 | 
+| Ms B. Raqase | 067 951 2839 | 
 
 ---
 
