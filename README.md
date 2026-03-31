@@ -48,7 +48,7 @@ A hard working and motivated individual, flexible and willing to learn new thing
  
 ## Projects 
 
-### [CPUT Mobile App UX 
+### CPUT Mobile App UX 
 `2024` · Academic Project 
 
 - Designed a UX/UI prototype aimed at simplifying CPUT student life through a mobile app integrating campus navigation, class registration, and student support.
@@ -97,8 +97,4 @@ A hard working and motivated individual, flexible and willing to learn new thing
 | Ms B. Raqase | 067 040 2553 | 
 
 ---
-
-## Mock Interview
-<video src="./LiyemaViti-mock-interview.mp4" controls width="600"></video
-
 
