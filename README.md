@@ -77,7 +77,7 @@ A hard working and motivated individual, flexible and willing to learn new thing
 | Computer Literate | Time Management | 
 | HTML & CSS | Attention to Detail | 
 | UI/UX Design (Figma) | Ability to Multitask & Prioritise | 
-|                      | Flexible & Eager to Learn | 
+| Java                 | Flexible & Eager to Learn | 
  
    
 --- 
