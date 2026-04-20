@@ -99,18 +99,27 @@ A hard working and motivated individual, flexible and willing to learn new thing
 ---
 ### Reflection (STAR) Markdown CV
 **S**ituation: As a final-year ICT student at CPUT, I needed to create a professional CV and publish it online. I had never used Markdown before. 
+
 **T**ask: My task was to write my CV using Markdown language and deploy it as a live website using GitHub Pages. 
+
 **A**ction: I learned basic Markdown syntax such as headings, tables, bullet points, and links. I structured my CV with all the necessary sections and uploaded my files then enabled GitHub Pages to make it live.  
+
 **R**esult: I successfully published my CV online at https://liyemaviti.github.io/CV. I gained new skills in Markdown, GitHub, and web deployment that I can use throughout my career.
 
 ### Reflection (STAR) Mock Interview
 **S**ituation: As a final-year ICT student at CPUT,  I was required to participate in a mock interview that was recorded on video.
+
 **T**ask: My task was to present myself confidently, answer interview questions clearly, and demonstrate that I am ready for the workplace.
+
 **A**ction: I prepared by practising my interview answers beforehand. During the interview, I focused on speaking clearly, maintaining eye contact with the camera.  
+
 **R**esult: Watching the recording back helped me identify areas to improve, such as slowing down when speaking and using more specific examples.
 
 ### Reflection (STAR) Github pages
 **S**ituation: I needed to publish my CV online so that potential employers could access it easily through a link.
+
 **T**ask: My task was to use GitHub Pages to deploy my CV as a live website that anyone could visit at any time.
+
 **A**ction: I went into the repository settings, enabled GitHub Pages, and set the source to the main branch. After a few minutes the site was live.
+
 **R**esult: My CV is now publicly accessible at https://liyemaviti.github.io/CV. I can share this link in job applications, on LinkedIn, and in emails.
