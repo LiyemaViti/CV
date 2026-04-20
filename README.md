@@ -98,7 +98,7 @@ A hard working and motivated individual, flexible and willing to learn new thing
 
 ---
 ### Mock Interview
-<video src="./charlton-solomons-mock-interview.mp4" controls width="600"></video>
+<video src="./mock-interview_BgYaZh69.mp4" controls width="600"></video>
 ---
 ### Reflection (STAR) Markdown CV
 **S**ituation: As a final-year ICT student at CPUT, I needed to create a professional CV and publish it online. I had never used Markdown before. 
