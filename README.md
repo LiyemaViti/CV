@@ -312,3 +312,39 @@ Tasks:
 User stories helped me understand how website features relate to the needs of the intended users. From a UI/UX design perspective, they helped me consider what users need to see and do on each page, and how the interface should support those needs.
 
 For example, the event search feature requires more than a search box. Its placement, visibility, labels and interaction with the results page all affect whether visitors can use it easily.
+
+## 4. Product Backlog
+
+### 4.1 Introduction
+
+The product backlog is a prioritised list of features, improvements and fixes required to develop the product. It helps the team decide which functionality is most important and should be considered first.
+
+The following is a proposed backlog based on the Event Guide Website. It should be compared with the team's actual backlog before being presented as project evidence.
+
+| ID   | Feature or task                               | Priority | Completion status |
+| ---- | --------------------------------------------- | -------- | ----------------- |
+| PB01 | Develop the homepage and navigation           | High     | complete          |
+| PB02 | Display event cards and event information     | High     | complete          |
+| PB03 | Implement event search                        | High     | complete          |
+| PB04 | Implement location, category and date filters | High     | complete          |
+| PB05 | Display upcoming and previous events          | High     | complete          |
+| PB06 | Develop category browsing                     | Medium   | complet           |
+| PB07 | Develop login and registration interfaces     | Medium   | complete          |
+| PB08 | Integrate the Java backend                    | High     | incomplete        |
+| PB09 | Add validation and error handling             | Medium   | incomplete        |
+| PB10 | Test usability and responsive layouts         | Medium   | incomplete        |
+
+The completion status must be updated using actual project evidence. The presence of a page in the source code does not necessarily mean that all its features are complete or tested.
+
+### 4.2 Backlog prioritisation
+
+High-priority items focus on the main purpose of the website: enabling visitors to discover and find events. Additional improvements, such as validation, responsive layouts and account-related features, can be prioritised according to the team's requirements and development schedule.
+
+Backend integration is an important dependency because the project documentation currently describes a mock-data implementation and a planned API contract.
+
+### 4.3 Reflection on the product backlog
+
+The product backlog helped me understand the importance of prioritising features according to their value to users. The main event discovery functions are central to the purpose of the website and should be considered alongside technical dependencies.
+
+I learned that a backlog should be maintained throughout development because requirements, priorities and the team's understanding of the product may change.
+
