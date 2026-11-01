@@ -126,3 +126,71 @@ A hard working and motivated individual, flexible and willing to learn new thing
 **A**ction: I went into the repository settings, enabled GitHub Pages, and set the source to the main branch. After a few minutes the site was live.
 
 **R**esult: My CV is now publicly accessible at https://liyemaviti.github.io/CV. I can share this link in job applications, on LinkedIn, and in emails.
+
+# Event Guide Website — PRP Assessment Portfolio
+
+## 1. Project Overview
+
+The Event Guide Website is a project focused on helping users discover local events. It brings event information together and provides features for browsing, searching and filtering events.
+
+### Project objectives
+
+- Develop a user-friendly website for discovering local events.
+- Allow users to search for events by name or category.
+- Enable users to filter events by location, category and date.
+- Separate upcoming events from previous events.
+- Provide account registration and login interfaces.
+- Practise teamwork, software development, task management and Agile project planning.
+
+### My contribution
+
+My role in the project was **UI/UX Designer**. My responsibility was to focus on the user interface (UI) and user experience (UX) of the Event Guide Website, helping ensure that the website was clear, consistent, visually appealing and easy to navigate.
+
+In this role, I focused on how users would interact with the website and how its information and features should be presented. This included considering the layout and structure of the pages, the presentation of event information, navigation between sections, and the consistency of interface elements such as buttons, forms, search fields and event cards. The aim was to make it straightforward for visitors to discover events, browse categories and find the information they need.
+
+My specific design contributions should be described with reference to the pages and design decisions I personally worked on. Where applicable, this may include page layouts, wireframes or mock-ups, visual styling, navigation flow, responsive design considerations and reviewing the interface for usability.
+
+**Evidence:**
+
+
+
+---
+
+## 2. Agile Team Charter
+
+### 2.1 Purpose
+
+The purpose of the Agile Team Charter is to establish a shared understanding of the project's objectives, team responsibilities, communication practices and working agreements.
+
+Our project team worked on developing the Event Guide Website to address the problem of event information being distributed across different platforms. The team needed to coordinate its development activities and ensure that the different parts of the project contributed to the same overall objective.
+
+### 2.2 Team objectives
+
+The proposed objectives of the project were to:
+
+1. Develop a functional and accessible event discovery website.
+2. Organise event information into useful categories.
+3. Implement event search and filtering features.
+4. Provide a clear and consistent user interface.
+5. Coordinate frontend and backend development.
+6. Maintain project documentation and evidence of development progress.
+
+### 2.3 Team values and working agreements
+
+The following are suitable working agreements for this project. Retain or revise them to match the agreements your team actually followed.
+
+- **Communication:** Share project updates and communicate problems with relevant team members.
+- **Collaboration:** Assist one another when tasks depend on shared components or information.
+- **Accountability:** Take responsibility for assigned tasks and communicate delays.
+- **Respect:** Consider different ideas and contributions during discussions.
+- **Quality:** Test changes and review work before considering tasks complete.
+- **Version control:** Use GitHub to share changes and maintain the project source code.
+
+
+### 2.5 Reflection on the Agile Team Charter
+
+The team charter provides a foundation for organising a group software project. It helps team members understand the project's purpose and clarifies expectations around communication, responsibility and collaboration.
+
+During this project, I learned that successful software development requires more than writing code. Team members must also communicate, coordinate tasks and ensure that their contributions support the overall project objectives.
+
+**
