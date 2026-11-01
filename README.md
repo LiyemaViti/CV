@@ -348,3 +348,71 @@ The product backlog helped me understand the importance of prioritising features
 
 I learned that a backlog should be maintained throughout development because requirements, priorities and the team's understanding of the product may change.
 
+## 5. Sprint Backlog
+
+### 5.1 Introduction
+
+A sprint backlog contains the work selected for a particular sprint and the actionable tasks needed to achieve the sprint goal. Unlike the product backlog, it focuses on a specific development period.
+
+### 5.2 Example sprint goal
+
+**Proposed sprint goal:** Develop the core event discovery interface so that visitors can browse events and use the main search and filtering features.
+
+### 5.3 Example sprint backlog
+
+The following tasks are suggested based on the project's source code. They are not a record of a completed sprint unless confirmed by the team's actual records.
+
+| Task                        | Expected outcome                            | Status       |
+| --------------------------- | ------------------------------------------- | ------------ |
+| Develop the homepage        | Homepage layout and event discovery section | Completed    |
+| Create reusable event cards | Consistent event presentation               | Completed    |
+| Develop the events page     | Event listings and tabs                     | Completed    |
+| Implement search            | Search terms passed to the events page      | Completed    |
+| Implement filters           | Location, category and date controls        | completed    |
+| Test core navigation        | Navigation works as intended                | In progress  |
+
+### 5.4 Sprint review
+
+During the sprint review, the team should compare completed functionality with the sprint goal. Working features should be demonstrated, incomplete tasks identified and feedback recorded.
+
+For this project, relevant demonstrations include the homepage, event listings, search behaviour and event filters.
+
+### 5.5 Reflection on the sprint backlog
+
+The sprint backlog demonstrates how a large project objective can be divided into smaller, manageable tasks. From my UI/UX role, design-related tasks could include planning page layouts, reviewing navigation, creating or refining interface elements, and checking that the design remains consistent across the website.
+
+I learned that design tasks should have clear expected outcomes so that progress can be assessed. A design should be reviewed against the user requirements and agreed design decisions rather than being considered complete simply because an initial layout has been produced.
+
+## 6. Agile Logbook
+
+### 6.1 Introduction
+
+An Agile logbook records the team's development activities, progress, decisions, challenges and lessons learned. It provides a record of how the project developed over time.
+
+### 6.2 Example personal development entry
+
+**Activity:** Reviewing the website interface and user journey.
+
+I considered how visitors/users would move through the Event Guide Website, from discovering events on the homepage to browsing categories and viewing event listings. I focused on the clarity of the page layouts, the organisation of information and the visibility of key navigation and interaction elements.
+
+This helped me understand how UI/UX design decisions can make a website easier to use. It also highlighted the importance of considering the user's journey when designing individual pages and interface components.
+
+**Evidence:** Screenshots of the interface, wireframes or mock-ups, design notes, and examples of design changes made during the project.
+
+### 6.3 Reflection on the Agile logbook
+
+The Agile logbook helps create a record of the development process rather than focusing only on the final product. It can show how decisions were made, how problems were addressed and how the team learned during development.
+
+I learned that recording progress regularly makes it easier to remember important decisions and identify recurring problems. If I were to improve my approach, I would maintain more consistent records of tasks, challenges, decisions and outcomes throughout the project.
+
+---
+
+## 7. Overall Reflection
+
+Working on the Event Guide Website provided an opportunity to connect UI/UX design with project planning and teamwork. In my role as **UI/UX Designer**, I focused on the way users would experience the website and how its pages and features could be organised to make event discovery clear and straightforward.
+
+Reviewing the project helped me understand the relationship between user requirements and interface design. For example, event search and filtering are not only functional features; their placement, labels, visual consistency and ease of use also influence the overall user experience.
+
+In future projects, I would improve my planning and documentation by recording progress consistently, keeping the backlog updated and collecting evidence as features are implemented. I would also ensure that testing and review are included in task completion rather than treating coding as the only measure of progress.
+
+Overall, the project has helped me understand that successful software development involves technical implementation, collaboration, clear requirements, regular reflection and evidence of the work performed.
