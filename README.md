@@ -193,4 +193,122 @@ The team charter provides a foundation for organising a group software project. 
 
 During this project, I learned that successful software development requires more than writing code. Team members must also communicate, coordinate tasks and ensure that their contributions support the overall project objectives.
 
-**
+## 3. User Stories and Tasks
+
+### 3.1 Introduction
+
+User stories describe software features from the perspective of the people who will use the system. They help the development team understand what users need and why those features are important.
+
+The Event Guide Website includes features for discovering events, searching, filtering and browsing event categories.
+
+### 3.2 User stories
+
+**User Story 1: Discover events**
+
+As a user, I want to see upcoming events on the homepage so that I can discover activities that interest me.
+
+Acceptance criteria:
+
+- The homepage displays an event discovery section.
+- Upcoming event cards display relevant event information.
+- A visitor can navigate to the events page.
+
+Tasks:
+
+- Develop the homepage layout.
+- Create reusable event card components.
+- Retrieve and display event data.
+- Test navigation from the homepage to the events page.
+
+**User Story 2: Search for events**
+
+As a visitor, I want to search for events by name or category so that I can quickly find relevant activities.
+
+Acceptance criteria:
+
+- The homepage provides a search field.
+- The visitor can enter a search term.
+- Submitting the search navigates to the events page with the search term.
+
+Tasks:
+
+- Create the search input.
+- Manage the search input value.
+- Handle search submission.
+- Pass the search term to the events page.
+- Test searches with matching and non-matching terms.
+
+**User Story 3: Filter events**
+
+As a visitor, I want to filter events by location, category and date so that I can find events that suit my preferences.
+
+Acceptance criteria:
+
+- The events page provides location, category and date filters.
+- Changing a filter updates the displayed event results.
+- The visitor can clear the filters.
+
+Tasks:
+
+- Create filter controls.
+- Connect the controls to the event service.
+- Apply the selected filter values.
+- Test the filtering and clear-filter functionality.
+
+**User Story 4: Browse previous events**
+
+As a visitor, I want to view previous events so that I can explore events that have already taken place.
+
+Acceptance criteria:
+
+- The events page provides upcoming and previous tabs.
+- Selecting a tab requests the appropriate event list.
+- The results are displayed in date order.
+
+Tasks:
+
+- Implement the upcoming and previous tabs.
+- Pass the selected status to the event service.
+- Sort the returned events.
+- Test the tab-switching behaviour.
+
+**User Story 5: Browse event categories**
+
+As a visitor, I want to browse events by category so that I can discover activities based on my interests.
+
+Acceptance criteria:
+
+- Event categories are displayed on the categories page.
+- Users can identify the available categories.
+- Selecting a category leads to relevant events, where implemented.
+
+Tasks:
+
+- Display the available categories.
+- Use consistent category names.
+- Implement navigation from categories to filtered events.
+- Test category selection.
+
+**User Story 6: Create an account**
+
+As a visitor, I want to register for an account so that I can access account-related functionality.
+
+Acceptance criteria:
+
+- A registration page is available.
+- The form collects the required account details.
+- Validation and submission behaviour are tested.
+
+Tasks:
+
+- Create the registration interface.
+- Implement input validation.
+- Connect registration to the authentication service.
+- Test successful and unsuccessful registration.
+
+
+### 3.3 Reflection on user stories and tasks
+
+User stories helped me understand how website features relate to the needs of the intended users. From a UI/UX design perspective, they helped me consider what users need to see and do on each page, and how the interface should support those needs.
+
+For example, the event search feature requires more than a search box. Its placement, visibility, labels and interaction with the results page all affect whether visitors can use it easily.
