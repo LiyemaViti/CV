@@ -397,11 +397,14 @@ I considered how visitors/users would move through the Event Guide Website, from
 
 This helped me understand how UI/UX design decisions can make a website easier to use. It also highlighted the importance of considering the user's journey when designing individual pages and interface components.
 
-**Evidence:** Screenshots of the interface, wireframes or mock-ups, design notes, and examples of design changes made during the project.
+**Evidence:** Screenshots of the interface, wireframes or mock-ups.
 <p align="center">
-  <img src="screenshot (136).png" alt="Alt Text" width="300">
-  <img src="screenshot (137).png" alt="Alt Text" width="300">
-  <img src="screenshot (138).png" alt="Alt Text" width="300">
+    <img src="Screenshot%20(136).png" alt="Screenshot 136" width="300">
+    <img src="Screenshot%20(137).png" alt="Screenshot 137" width="300">
+    <img src="Screenshot%20(138).png" alt="Screenshot 138" width="300">
+    <img src="Screenshot%20(139).png" alt="Screenshot 139" width="300">
+    <img src="Screenshot%20(115).png" alt="Screenshot 115" width="300">
+    <img src="Screenshot%20(116).png" alt="Screenshot 116" width="300">
 </p>
 
 ### 6.3 Reflection on the Agile logbook
