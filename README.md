@@ -402,7 +402,6 @@ This helped me understand how UI/UX design decisions can make a website easier t
     <img src="Screenshot%20(136).png" alt="Screenshot 136" width="300">
     <img src="Screenshot%20(137).png" alt="Screenshot 137" width="300">
     <img src="Screenshot%20(138).png" alt="Screenshot 138" width="300">
-    <img src="Screenshot%20(139).png" alt="Screenshot 139" width="300">
     <img src="Screenshot%20(115).png" alt="Screenshot 115" width="300">
     <img src="Screenshot%20(116).png" alt="Screenshot 116" width="300">
 </p>
